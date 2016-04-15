@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 /* initial setup */
+=======
+>>>>>>> refs/remotes/ebsco-mktg/master
 /*
     ========================================
         Table of Contents
@@ -13,9 +16,15 @@
     ::6 Columns
     ::8 Columns
     ::9 Columns
+<<<<<<< HEAD
 	::10 Columns //new with Clarke
     ::12 Columns
 	::14 Columns //new with Clarke
+=======
+	::10 Columns //Bill
+    ::12 Columns
+	::14 Columns //Bill
+>>>>>>> refs/remotes/ebsco-mktg/master
     ::16 Columns
     
     ::Clearfix
@@ -32,7 +41,13 @@
             <section class="container">
                 <div class="inner">
                     <div class="content">
+<<<<<<< HEAD
                             <!-- content goes here -->
+=======
+                        <div class="inner">
+                            <!-- content goes here -->
+                        </div>
+>>>>>>> refs/remotes/ebsco-mktg/master
                     </div>
                 </div>
             </section>
@@ -64,7 +79,11 @@
     ========================================
 */
     *, *:before, *:after {
+<<<<<<< HEAD
         box-sizing: inherit;
+=======
+        box-sizing: border-box;
+>>>>>>> refs/remotes/ebsco-mktg/master
     }
     .page  {
         position: relative;
@@ -102,7 +121,11 @@
     .content > .inner *:first-child {
         /*margin-top: 0;*/
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> refs/remotes/ebsco-mktg/master
 /*
     ========================================
         ::Global Width
@@ -129,8 +152,15 @@
     
     .hide6,
     .hide8,
+<<<<<<< HEAD
     .hide9, 
     .hide12,
+=======
+    .hide9,
+	.hide10, /* Bill */
+    .hide12,
+	.hide14, /* Bill */
+>>>>>>> refs/remotes/ebsco-mktg/master
     .hide16 {
         display: block !important;
     }
@@ -143,7 +173,13 @@
     .wrap6,
     .wrap8,
     .wrap9,
+<<<<<<< HEAD
     .wrap12,
+=======
+	.wrap10, /* Bill */
+    .wrap12,
+	.wrap14, /* Bill */
+>>>>>>> refs/remotes/ebsco-mktg/master
     .wrap16 { float: left; }
 
 
@@ -172,7 +208,13 @@
         .hide4,
         .hide8,
         .hide9,
+<<<<<<< HEAD
         .hide12,
+=======
+		.hide10, /* Bill */
+        .hide12,
+		.hide14, /* Bill */
+>>>>>>> refs/remotes/ebsco-mktg/master
         .hide16 {
             display: block !important;
         }
@@ -185,7 +227,13 @@
     .wrap4,
     .wrap8,
     .wrap9,
+<<<<<<< HEAD
     .wrap12,
+=======
+	.wrap10, /* Bill */
+    .wrap12,
+	.wrap14, /* Bill */
+>>>>>>> refs/remotes/ebsco-mktg/master
     .wrap16 { float: left; }
 
     }
@@ -243,7 +291,13 @@
     
         .hide4,
         .hide6,
+<<<<<<< HEAD
         .hide12,
+=======
+		.hide10, /* Bill */
+        .hide12,
+		.hide14, /* Bill */
+>>>>>>> refs/remotes/ebsco-mktg/master
         .hide16 {
             display: block !important;
         }
@@ -257,18 +311,89 @@
     .wrap9 { float: none; }
     .wrap4,
     .wrap6,
+<<<<<<< HEAD
     .wrap12,
+=======
+	.wrap10, /* Bill */
+    .wrap12,
+	.wrap14, /* Bill */
+>>>>>>> refs/remotes/ebsco-mktg/master
     .wrap16 { float: left; }
     
     }
 
+<<<<<<< HEAD
+=======
+/*												// Bill
+    ========================================	// Bill
+        ::10 Columns							// Bill
+    ========================================	// Bill
+*/												/* Bill */
+
+    @media screen and (min-width: 721px) and (max-width: 800px) {	/* Bill */
+	
+        .size1of10 { width: 10%; }	/* Bill */
+        .size2of10 { width: 20%; }	/* Bill */
+        .size3of10 { width: 30%; }	/* Bill */
+        .size4of10 { width: 40%; }	/* Bill */
+        .size5of10 { width: 50%; }	/* Bill */
+        .size6of10 { width: 60%; }	/* Bill */
+        .size7of10 { width: 70%; }	/* Bill */
+        .size8of10 { width: 80%; }	/* Bill */
+        .size9of10 { width: 90%; }	/* Bill */
+        .size10of10 { width: 100%; }	/* Bill */
+
+        .shift1of10 { margin-left: 10%; }	/* Bill */
+        .shift2of10 { margin-left: 20%; }	/* Bill */
+        .shift3of10 { margin-left: 30%; }	/* Bill */
+        .shift4of10 { margin-left: 40%; }	/* Bill */
+        .shift5of10 { margin-left: 50%; }	/* Bill */
+        .shift6of10 { margin-left: 60%; }	/* Bill */
+        .shift7of10 { margin-left: 70%; }	/* Bill */
+        .shift8of10 { margin-left: 80%; }	/* Bill */
+        .shift9of10 { margin-left: 90%; }	/* Bill */
+        .shift10of10 { margin-left: 100%; }	/* Bill */
+
+        .hide4,		/* Bill */
+        .hide6,		/* Bill */
+        .hide8,		/* Bill */
+        .hide9,		/* Bill */
+		.hide12,	/* Bill */
+		.hide14,	/* Bill */
+        .hide16 {	/* Bill */
+            display: block !important;	/* Bill */
+        }								/* Bill */
+
+        .hide10 {	/* Bill */
+            display: none !important;	/* Bill */
+        }								/* Bill */
+
+		.wrap10 { float: none; }		/* Bill */
+		.wrap4,		/* Bill */
+		.wrap6,		/* Bill */
+		.wrap8,		/* Bill */
+		.wrap9,		/* Bill */
+		.wrap12, 	/* Bill */
+		.wrap14, 	/* Bill */
+		.wrap16 { float: left; }		/* Bill */
+	
+	}	/* Bill */
+
+
+
+>>>>>>> refs/remotes/ebsco-mktg/master
 /*
     ========================================
         ::12 Columns
     ========================================
 */
+<<<<<<< HEAD
  /* @media screen and (min-width: 721px) and (max-width: 960px) { */
 	@media screen and (min-width: 801px) and (max-width: 960px) {
+=======
+ /* @media screen and (min-width: 721px) and (max-width: 960px) { *//* Bill Edit Removed */
+	@media screen and (min-width: 801px) and (max-width: 960px) {	/* Bill Edit Added */
+>>>>>>> refs/remotes/ebsco-mktg/master
  
         .size1of12 { width: 8.33333%; }
         .size2of12 { width: 16.66666%; }
@@ -308,7 +433,13 @@
         .hide4,
         .hide6,
         .hide8,
+<<<<<<< HEAD
         .hide9, 
+=======
+        .hide9,
+		.hide10, /* Bill */
+		.hide14, /* Bill */
+>>>>>>> refs/remotes/ebsco-mktg/master
         .hide16 {
             display: block !important;
         }
@@ -322,17 +453,92 @@
     .wrap6,
     .wrap8,
     .wrap9,
+<<<<<<< HEAD
+=======
+	.wrap10, /* Bill */
+	.wrap14, /* Bill */
+>>>>>>> refs/remotes/ebsco-mktg/master
     .wrap16 { float: left; }
     
     }
 
+<<<<<<< HEAD
+=======
+
+/*												// Bill
+    ========================================	// Bill
+        ::14 Columns							// Bill
+    ========================================	// Bill
+*/												/* Bill */
+	@media screen and (min-width: 961px) and (max-width: 1120px) {	/* Bill */
+        .size1of14 { width: 7.1428%; }	/* Bill */
+        .size2of14 { width: 14.2857%; }	/* Bill */
+        .size3of14 { width: 21.4285%; }	/* Bill */
+        .size4of14 { width: 28.5714%; }	/* Bill */
+        .size5of14 { width: 35.7142%; }	/* Bill */
+        .size6of14 { width: 42.8571%; }	/* Bill */
+        .size7of14 { width: 50%; }		/* Bill */
+        .size8of14 { width: 57.1428%; }	/* Bill */
+        .size9of14 { width: 64.2857%; }	/* Bill */
+        .size10of14 { width: 71.4285%; }	/* Bill */
+        .size11of14 { width: 78.5714%; }	/* Bill */
+        .size12of14 { width: 85.7142%; }	/* Bill */
+        .size13of14 { width: 92.8571%; }	/* Bill */
+        .size14of14 { width: 100%; }		/* Bill */
+
+        .shift1of14 { margin-left: 7.1428%; }	/* Bill */
+        .shift2of14 { margin-left: 14.2857%; }	/* Bill */
+        .shift3of14 { margin-left: 21.4285%; }	/* Bill */
+        .shift4of14 { margin-left: 28.5714%; }	/* Bill */
+        .shift5of14 { margin-left: 35.7142%; }	/* Bill */
+        .shift6of14 { margin-left: 42.8571%; }	/* Bill */
+        .shift7of14 { margin-left: 50%; }		/* Bill */
+        .shift8of14 { margin-left: 57.1428%; }	/* Bill */
+        .shift9of14 { margin-left: 64.2857%; }	/* Bill */
+        .shift10of14 { margin-left: 71.4285%; }	/* Bill */
+        .shift11of14 { margin-left: 78.5714%; }	/* Bill */
+        .shift12of14 { margin-left: 85.7142%; }	/* Bill */
+        .shift13of14 { margin-left: 92.8571%; }	/* Bill */
+        .shift14of14 { margin-left: 100%; }		/* Bill */
+
+        .hide4,		/* Bill */
+        .hide6,		/* Bill */
+        .hide8,		/* Bill */
+        .hide9,		/* Bill */
+		.hide10,	/* Bill */
+        .hide12,	/* Bill */
+		.hide16 {	/* Bill */
+            display: block !important;	/* Bill */
+        }								/* Bill */
+
+        .hide14 {	/* Bill */
+            display: none !important;	/* Bill */
+        }								/* Bill */
+
+		.wrap14 { float: none; }	/* Bill */
+		.wrap4,					/* Bill */
+		.wrap6,					/* Bill */
+		.wrap8,					/* Bill */
+		.wrap9,					/* Bill */
+		.wrap10,				/* Bill */
+		.wrap12,				/* Bill */
+		.wrap16{ float: left; }	/* Bill */
+
+	}	/* Bill */
+	
+>>>>>>> refs/remotes/ebsco-mktg/master
 /*
     ========================================
         ::16 Columns
     ========================================
 */
+<<<<<<< HEAD
 /*  @media screen and (min-width: 961px) {	*/
     @media screen and (min-width: 1121px) {
+=======
+/*  @media screen and (min-width: 961px) {	*//* 	Bill edited this line */
+    @media screen and (min-width: 1121px) {		/*	Bill new edited line */
+>>>>>>> refs/remotes/ebsco-mktg/master
         .size1of16 { width: 6.25%; }
         .size2of16 { width: 12.5%; }
         .size3of16 { width: 18.75%; }
@@ -384,7 +590,13 @@
         .hide6,
         .hide8,
         .hide9,
+<<<<<<< HEAD
         .hide12 {
+=======
+		.hide10, /* Bill */
+        .hide12, /* Bill (edit) */
+		.hide14 { /* Bill (edit) */
+>>>>>>> refs/remotes/ebsco-mktg/master
             display: block !important;
         }
 
@@ -397,7 +609,13 @@
     .wrap6,
     .wrap8,
     .wrap9,
+<<<<<<< HEAD
     .wrap12 { float: left; } 
+=======
+	.wrap10, /* Bill */
+    .wrap12, /* Bill (edit) */
+	.wrap14 { float: left; } /* Bill (edit) */
+>>>>>>> refs/remotes/ebsco-mktg/master
     
     }
 
